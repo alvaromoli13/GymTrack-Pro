@@ -1,7 +1,7 @@
-// La URL y la publishable/anon key son públicas en una app de navegador.
-// NUNCA pegues aquí una service_role key o una clave secreta.
-export const SUPABASE_URL = "https://TU-PROYECTO.supabase.co";
-export const SUPABASE_PUBLISHABLE_KEY = "TU_CLAVE_PUBLICA";
+// La URL y la publishable key son públicas en una app de navegador.
+// Nunca pongas una service_role key ni una clave secreta en este archivo.
+export const SUPABASE_URL = "https://yzslnshnaxumcnlszdqy.supabase.co";
+export const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_CtokviUCRghk7SqwLBO4Vg_0huiAnp-";
 export const isSupabaseConfigured = () =>
   SUPABASE_URL.startsWith("https://") &&
   !SUPABASE_URL.includes("TU-PROYECTO") &&
